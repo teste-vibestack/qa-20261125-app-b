@@ -1,0 +1,8 @@
+{
+  "name": "qa-20261125-app-b",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node -e \"require('http').createServer((q,s)=>s.end('QA OK')).listen(process.env.PORT||3000,'0.0.0.0')\""
+  }
+}
